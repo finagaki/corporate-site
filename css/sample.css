@@ -60,7 +60,7 @@ header {
         display: inline-block;
         line-height: 40px;
         padding-left: 50px;
-        background-image: url("../images/top/navi_top/png");
+        background-image: url("../images/top/navi_top.png");
         background-size: 40px 40px; } }
     @media screen and (min-width: 551px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 551px) and (min-resolution: 2dppx) {
       header .pc_navi_li li.navi_toppage a {
@@ -239,5 +239,94 @@ footer {
 h1 {
   margin: 0;
   padding: 0; }
+
+#sub_cover {
+  display: block;
+  background-image: url(../images/news/sub_cover.jpg);
+  padding: 80px 0;
+  background-size: cover; }
+  #sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 0; }
+  @media (max-width: 550px) {
+    #sub_cover {
+      padding: 40px 0; }
+      #sub_cover h2 {
+        font-size: 1.6rem; } }
+
+#contents #main h2 {
+  color: #42b9d0;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #42b9d0;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  display: block; }
+#contents .news_li {
+  font-size: 1.5rem; }
+  #contents .news_li span {
+    color: #42b9d0;
+    font-weight: bold;
+    padding-right: 10px; }
+  #contents .news_li li {
+    list-style: none;
+    padding-bottom: 5px; }
+#contents #sidebar .pc_sidemenu h3 {
+  color: #42b9d0;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  background-color: #f3f9fb;
+  padding: 15px;
+  margin-bottom: 0px; }
+#contents #sidebar .pc_sidemenu li {
+  list-style: none;
+  display: block;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e5e5e5;
+  padding: 10px 10px 10px 20px;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  margin-bottom: 0px;
+  background-image: url(../images/news/side_arrow.png);
+  background-size: 4px 8px; }
+  #contents #sidebar .pc_sidemenu li a {
+    color: #339fd1;
+    text-decoration: none; }
+    #contents #sidebar .pc_sidemenu li a:hover {
+      color: #42b9d0; }
+@media (max-width: 550px) {
+  #contents #sidebar .pc_sidemenu {
+    display: none; } }
+@media (min-width: 551px) {
+  #contents {
+    padding-top: 35px;
+    padding-bottom: 70px; }
+    #contents #main {
+      padding-right: 20px; } }
+@media (max-width: 550px) {
+  #contents {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    #contents #main h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-bottom: 15px; }
+    #contents span {
+      display: block; } }
+#contents #main th, #contents td {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 1.4rem; }
+#contents .company_title {
+  margin-bottom: 0px; }
+#contents #main th {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=sample.css.map */
